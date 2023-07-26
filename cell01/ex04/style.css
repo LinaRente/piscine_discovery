@@ -1,0 +1,41 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+a {
+    color : white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+footer {
+    text-align: right;
+    border-top: 1px solid black;
+    font-style: italic;
+    font-family: monospace;
+}

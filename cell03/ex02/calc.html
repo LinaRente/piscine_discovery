@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div>
+        <input id="input1" type="text">
+        <select id="oper">
+            <option value="/">/</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="%">%</option>
+        </select>
+        <input id="input2" type="text">
+        <input id="click" type="submit" value="Try me!" onclick="calculate()">
+    </div>
+    <script>
+        setInterval(function () {
+            alert("Please, use me...");
+        }, 30000);
+        function calculate() {
+            let input1 = parseInt(document.getElementById("input1").value);
+            let input2 = parseInt(document.getElementById("input2").value);
+            let value = document.getElementById("oper").value;
+            console.log(typeof input1);
+            console.log(typeof input2);
+            let result = 0;
+            if (input1 >= 0 && input2 >= 0) {
+                console.log("in loop");
+                console.log(value);
+
+                if (value == '/') {
+                    if (input2 == 0) {
+                        alert("It's over 9000!");
+                        return
+                    }
+                    else
+                        result = input1 / input2;
+                }
+                else if (value == '*') {
+                    result = input1 * input2;
+                }
+                else if (value == '-') {
+                    result = input1 - input2;
+                }
+                else if (value == '+') {
+                    result = input1 + input2;
+                }
+                else if (value == '%') {
+                    if (input2 == 0) {
+                        alert("It's over 9000!");
+                        return
+                    }
+                    else
+                        result = input1 % input2;
+                }
+            }
+            else {
+                alert("Error\n");
+            }
+            alert(result);
+        }
+    </script>
+</body>
+
+</html>

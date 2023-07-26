@@ -1,0 +1,32 @@
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid rgb(132, 131, 133) ;
+    box-shadow: 10px 5px 8px rgb(179, 177, 182);
+    background-color: rgb(179, 177, 182);
+}
+
+.cat {
+    width: 200px;
+    height: 200px;
+}
+
+.social {
+    margin-left: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    width: 90px;
+    margin: 20px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+p {
+    font-weight: 800;
+}

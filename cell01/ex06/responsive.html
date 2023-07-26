@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resposive</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        section {
+            display: flex;
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        .first {
+            background-color: rgb(164, 201, 130);
+            height: 100vh;
+        }
+
+        .second {
+            background-color: rgb(247, 177, 162);
+            border-left: 2px solid rgb(146, 145, 145);
+        }
+
+        .size {
+            width: 50%;
+            height: 100vh;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="first size flex">
+            <p>First cell</p>
+        </div>
+        <div class="second size flex">
+            <p>Second cell</p>
+        </div>
+    </section>
+</body>
+
+</html>

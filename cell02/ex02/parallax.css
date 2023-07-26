@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.parallax1 {
+    background-image: url("https://images.hindustantimes.com/img/2022/08/07/1600x900/cat_1659882617172_1659882628989_1659882628989.jpg");
+}
+
+.parallax2 {
+    color: aliceblue;
+    font-size: 24px;
+    line-height: 50vh;
+    text-align: center;
+    background-color: black;
+}
+
+.parallax3 {
+    background-image: url("https://www.pbs.org/wgbh/nova/media/images/cat-tales-img.width-2000.jpg");
+}
+
+#hi {
+    line-height: 100vh;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    color: aqua;
+}
+
+#hola {
+    line-height: 100vh;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800;
+    color: aqua;
+}
